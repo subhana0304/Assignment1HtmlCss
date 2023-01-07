@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+button.btn{
+    color: white;
+    background: #F15B22;
+    padding: 20px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin-top: 30px;
+}
+button.btn2{
+    background: white;
+    color: #F15B22;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+}
+section{
+    margin: 130px 175px;
+}
+
+/* Header Section start */
+
+header{
+    background-image: url(images/banner2.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    display: flex;
+}
+.content{
+    align-items: center;
+    justify-content: right;
+    padding: 110px  50px 180px  700px;
+}
+.headline{
+    font-size: 64px;
+    font-weight: 700;
+}
+.description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+/* Header Section End */
+
+/* Previous Section start */
+
+.previous{
+    display: flex;
+    align-items: center;
+}
+.text{
+    text-align: left;
+    padding-left: 70px;
+}
+.title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.paragraph{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+ul{
+    margin-top: 30px;
+    text-decoration: none;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+ul li{
+    list-style: none;
+    display: flex;
+}
+ul li span{
+    margin-left: 5px;
+}
+
+
+/* Previous Section end */
+
+/* Plan Section end */
+
+.conainer{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    text-align: center;
+}
+.title2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.box {
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+}
+.para{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* Plan Section end */
+
+/* Contact Section start */
+
+.contact{
+    background-image: url(images/Group\ 3987.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 10px;
+}
+.align{
+    padding: 40px;
+}
+.align span{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+
+/* Contact Section End */
+
+/* footer section start */
+
+footer {
+    background: #151414;
+    margin-top: 130px;
+    padding: 100px 175px;
+}
+.footer{
+    display: flex;
+    gap: 150px;
+}
+.leftside{
+    text-align: left;
+    color: white;
+    justify-content: left;
+}
+h4{
+    font-weight: 700;
+    font-size: 45px;
+}
+p{
+    text-align: left;
+    color: #f7f4f4;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.image{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    margin-top: 30px;
+}
+img{
+    justify-content: left;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.rightside{
+    text-align: left;
+    justify-content: left;
+    color: white;
+}
+h5{
+    font-weight: 600;
+    font-size: 30px;
+}
+input{
+    padding: 15px 25px;
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid #ffffff;
+    background: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/* footer section end */
